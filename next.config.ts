@@ -28,7 +28,12 @@ const nextConfig: NextConfig = {
         hostname: 'maps.googleapis.com', // Added for Google Maps images
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        pathname: '/**',
+      },
     ],
   },
 };
